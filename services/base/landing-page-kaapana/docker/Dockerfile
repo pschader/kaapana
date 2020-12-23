@@ -1,8 +1,8 @@
 # build stage
-FROM local-only/base-landing-page:0.1.0-vdev  as build-stage
+FROM landing-page-base:latest  as build-stage
 
 LABEL IMAGE="landing-page-kaapana"
-LABEL VERSION="0.1.2-vdev"
+LABEL VERSION="0.1.3-vdev"
 LABEL CI_IGNORE="False"
 
 RUN npm run build
