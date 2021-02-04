@@ -1,4 +1,4 @@
-# build stageq
+# build stage
 FROM local-only/base-landing-page:0.1.0-vdev  as build-stage
 
 LABEL IMAGE="landing-page-kaapana"
